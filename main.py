@@ -18,17 +18,13 @@ while True:
     opcion = int(input("Elige una opción: ") )     
 
     if opcion == 1:
-        print(" ")
-        print("RESULTADO: La suma de ",n1,"+",n2," es igual a: ",n1+n2)
+        print("\nResultado: La suma de ",n1,"+",n2," es igual a: ",n1+n2)
     elif opcion == 2:
-        print(" ")
-        print("RESULTADO: La resta de ",n1,"-",n2,"es igual a: ",n1-n2)
+        print("\nResultado: La resta de ",n1,"-",n2,"es igual a: ",n1-n2)
     elif opcion == 3:
-        print(" ")
-        print("RESULTADO: El producto de ",n1,"*",n2," es igual a: ",n1*n2)
+        print("\nResultado: El producto de ",n1,"*",n2," es igual a: ",n1*n2)
     elif opcion == 4:
-        print("")
-        print("RESULTADO: La división de ",n1,"/",n2," es igual a : ", n1/n2)
+        print("\nResultado: La división de ",n1,"/",n2," es igual a : ", n1/n2)
     elif opcion == 5:
         n1 = float(input("Introduce tu primer número: ") )
         n2 = float(input("Introduce tu segundo número: ") )
