@@ -12,6 +12,7 @@ while True:
     4) Dividir los dos números
     5) Cambiar los números elegidos
     6) Exponente de un numero
+    7) Cociente de un número
     0) Apagar calculadora
     """)
     opcion = int(input("Elige una opción: ") )     
@@ -34,6 +35,8 @@ while True:
     elif opcion ?? 6:
         print("")
         print("RESULTADO: El numero: ",n1," exponenciado a la: ",n2," es igual a: ", n1**n2)
+    elif opcion == 7:
+        print("\nRespuesta: El cociente de ",n1," y ",n2," es: ",n1//n2)
     elif opcion == 0:
         break
     else:
